@@ -1,0 +1,12 @@
+nav {
+  background-color: white;
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav__menuimg {
+  width: 2rem;
+}
