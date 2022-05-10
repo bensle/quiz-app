@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--backround__color);
+  color: var(--text__color--1);
+}
