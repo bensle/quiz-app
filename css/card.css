@@ -1,6 +1,7 @@
 .card__heading {
   color: var(--text__color--heading2);
   border-bottom: solid 2px;
+  text-align: center;
 }
 .card {
   border: solid black 2px;
@@ -14,6 +15,7 @@
 }
 .card__question {
   font-size: 1.2rem;
+  text-align: center;
 }
 .tags {
   list-style: none;
@@ -23,28 +25,28 @@
   align-items: baseline;
 }
 .tags__tag1 {
-  background-color: aqua;
+  background-color: var(--tag__color1);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
   border: solid white;
 }
 .tags__tag2 {
-  background-color: bisque;
+  background-color: var(--tag__color2);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
   border: solid white;
 }
 .tags__tag3 {
-  background-color: blueviolet;
+  background-color: var(--tag__color3);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
   border: solid white;
 }
 .tags__tag4 {
-  background-color: slategray;
+  background-color: var(--tag__color4);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
@@ -60,6 +62,10 @@
   right: -5px;
   top: -18px;
   z-index: 1;
+}
+.card__show__container {
+  display: flex;
+  justify-content: center;
 }
 
 .card__button--show {

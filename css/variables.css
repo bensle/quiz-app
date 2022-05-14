@@ -2,6 +2,10 @@
   --background__color: #a3a39e;
   --background__color__card: #abb3b3;
   --text__color--1: #000000e0;
-  --text__color--heading1: hotpink;
+  --text__color--heading1: rgb(39, 34, 36);
   --text__color--heading2: #000000e0;
+  --tag__color1: #aedcebe0;
+  --tag__color2: #e88585e0;
+  --tag__color3: #6ee5a1e0;
+  --tag__color4: #d1a6ede0;
 }
