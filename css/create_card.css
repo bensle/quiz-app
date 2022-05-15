@@ -1,0 +1,22 @@
+.create__grid {
+  display: grid;
+  height: 100vh;
+}
+.create__card__main {
+  display: flex;
+  /* height: 100vh; */
+  flex-direction: column;
+  margin: 25px;
+}
+
+.create__card__form {
+  display: grid;
+}
+.create__card__input-label {
+  position: relative;
+}
+
+.create__textarea {
+  width: 100%;
+  height: 150px;
+}
