@@ -1,0 +1,44 @@
+.profile__intro {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile__image {
+  width: 50%;
+  border-radius: 50%;
+  border: solid 3px lightcoral;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+.profile__about__heading {
+  margin-top: 40px;
+  text-align: center;
+}
+.profile__about__text {
+  margin: 20px;
+}
+.profile__skills__heading {
+  text-align: center;
+  margin-top: 40px;
+}
+.profile__skilllist {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+.profile__skill {
+  background-color: var(--tag__color1);
+  padding: 5px;
+  border-radius: 15%;
+  margin: 5px;
+  border: solid lightcoral;
+  width: 25%;
+}
+
+.profile__nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
