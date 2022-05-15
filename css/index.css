@@ -1,6 +1,8 @@
 @import "./variables.css";
-@import "./card.css";
 @import "./global.css";
+@import "./card.css";
 @import "./footer.css";
 @import "./nav.css";
 @import "./header.css";
+@import "./bookmark.css";
+@import "./create_card.css";
