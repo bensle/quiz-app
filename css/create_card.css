@@ -1,6 +1,7 @@
 .create__grid {
   display: grid;
   height: 100vh;
+  align-content: flex-start;
 }
 .create__card__main {
   display: grid;
