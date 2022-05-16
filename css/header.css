@@ -1,5 +1,5 @@
 .header {
-  background-color: white;
+  background-color: var(--backround-color);
   height: 50px;
   display: flex;
   justify-content: center;
@@ -8,5 +8,8 @@
 }
 
 .header__heading {
-  color: var(--text__color--heading1);
+  color: var(--text__color--heading2);
+}
+.home__body {
+  display: grid;
 }

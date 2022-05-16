@@ -6,8 +6,9 @@
 body {
   background-color: var(--background__color);
   color: var(--text__color--1);
-  display: grid;
+  /* display: grid; */
   height: 100vh;
+  font-family: "Ubuntu Mono", monospace;
 }
 .mainquiz {
   display: grid;
@@ -19,5 +20,5 @@ body {
 }
 
 .nav__menuhome {
-  fill: red;
+  fill: lightcoral;
 }
