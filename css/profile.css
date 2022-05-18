@@ -7,8 +7,14 @@
 .profile__image {
   width: 50%;
   border-radius: 50%;
+  object-fit: contain;
   border: solid 3px lightcoral;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+.profile__name {
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: underline;
 }
 .profile__about__heading {
   margin-top: 40px;
