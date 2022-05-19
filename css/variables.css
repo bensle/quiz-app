@@ -1,12 +1,8 @@
 :root {
-  --background__color: #a3a39e;
-  --background__color__card: #abb3b3;
-  --text__color--1: #000000e0;
-  --text__color--2: #000000;
-  --text__color--heading1: rgb(39, 34, 36);
-  --text__color--heading2: #000000e0;
-  /* --tag__color1: #aedcebe0;
-  --tag__color2: #e88585e0;
-  --tag__color3: #6ee5a1e0;
-  --tag__color4: #d1a6ede0; */
+  --backgroundcolor: #a3a39e;
+  --backgroundcolor-card: #abb3b3;
+  --textcolor-1: #000000e0;
+  --textcolor-2: #020202;
+  --text-color-heading1: rgb(39 34 36);
+  --textcolor-heading2: #040404e0;
 }

@@ -1,0 +1,35 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Quiz App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run htmlhint && npm run prettier:write",
+    "htmlhint": "npx htmlhint \"**/*.html\"",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "eslint": "npx eslint \"**/*.js\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensle/quiz-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bensle/quiz-app/issues"
+  },
+  "homepage": "https://github.com/bensle/quiz-app#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "htmlhint": "^1.1.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}

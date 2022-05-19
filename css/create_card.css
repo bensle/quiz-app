@@ -3,9 +3,9 @@
   height: 100vh;
   align-content: flex-start;
 }
+
 .create__card__main {
   display: grid;
-  /* height: 100vh; */
   flex-direction: column;
   margin: 0 2rem 2rem;
   overflow-y: scroll;
@@ -20,10 +20,10 @@
 .create__card__submit-button {
   margin: 1rem auto 0.5rem;
   padding: 1rem 1.5rem;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-weight: bold;
   border: solid 2px lightcoral;
-  background-color: var(--background__color);
+  background-color: var(--backgroundcolor);
 }
 
 .create__textarea {
@@ -31,14 +31,15 @@
   height: 10rem;
   margin-bottom: 2rem;
   border: solid 2px lightcoral;
-  background-color: var(--background__color);
-  color: var(--text__color--2);
+  background-color: var(--backgroundcolor);
+  color: var(--textcolor-2);
   text-align: center;
 }
+
 .create__textarea-tags {
   width: 100%;
   border: solid 2px lightcoral;
-  background-color: var(--background__color);
+  background-color: var(--backgroundcolor);
 }
 
 .create__card__input-label {
