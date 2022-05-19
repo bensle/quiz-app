@@ -5,8 +5,7 @@
 }
 
 body {
-  background-color: var(--background__color);
-  color: var(--text__color--1);
+  background-color: var(--backgroundcolor);
 
   /*  display: grid; */
   height: 100vh;

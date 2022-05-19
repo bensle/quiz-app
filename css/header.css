@@ -8,7 +8,7 @@
 }
 
 .header__heading {
-  color: var(--text__color--heading2);
+  color: var(--textcolor-heading2);
 }
 
 .home__body {

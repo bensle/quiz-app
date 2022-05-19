@@ -1,5 +1,5 @@
 .card__heading {
-  color: var(--text__color--heading2);
+  color: var(--textcolor-heading2);
   border-bottom: solid 2px;
   text-align: center;
 }
@@ -9,7 +9,7 @@
   border-radius: 15px;
 
   /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); */
-  background-color: var(--background__color);
+  background-color: var(--backgroundcolor);
   padding: 10px;
   margin: 20px;
   width: 80vw;
@@ -30,7 +30,6 @@
 }
 
 .tags__tag1 {
-  background-color: var(--tag__color1);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
@@ -38,7 +37,6 @@
 }
 
 .tags__tag2 {
-  background-color: var(--tag__color2);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
@@ -46,7 +44,6 @@
 }
 
 .tags__tag3 {
-  background-color: var(--tag__color3);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
@@ -54,7 +51,6 @@
 }
 
 .tags__tag4 {
-  background-color: var(--tag__color4);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
@@ -86,5 +82,5 @@
   font-family: 'Ubuntu Mono', monospace;
   font-weight: bold;
   border: solid 2px lightcoral;
-  background-color: var(--background__color);
+  background-color: var(--backgroundcolor);
 }

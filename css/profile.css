@@ -42,7 +42,6 @@
 }
 
 .profile__skill {
-  background-color: var(--tag__color1);
   padding: 5px;
   border-radius: 15%;
   margin: 5px;
