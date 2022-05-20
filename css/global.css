@@ -4,10 +4,9 @@
   margin: 0;
 }
 
-body {
+.quizgrid {
+  display: grid;
   background-color: var(--backgroundcolor);
-
-  /*  display: grid; */
   height: 100vh;
   font-family: 'Ubuntu Mono', monospace;
 }
@@ -18,6 +17,6 @@ body {
   overflow-y: auto;
 }
 
-.nav__menuhome {
-  fill: lightcoral;
+.hidepage {
+  display: none;
 }

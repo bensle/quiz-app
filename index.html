@@ -14,10 +14,11 @@
     <script defer src="./index.js"></script>
     <title>Quiz-App</title>
   </head>
-  <body class="home__body">
-    <h1 class="header__heading">My Quiz App</h1>
+  <body class="quizgrid">
+    <h1 class="header" data-js="pageHeading">My Quiz App</h1>
+
     <!-- Index Page -->
-    <main class="mainquiz">
+    <main class="mainquiz" data-js="indexpage">
       <section class="card">
         <div class="card__bookmark__container">
           <img
@@ -168,8 +169,9 @@
         </ul>
       </section>
     </main>
+
     <!-- Bookmarks -->
-    <main class="mainquiz">
+    <main class="mainquiz hidepage" data-js="bookmarksPage">
       <section class="card">
         <div class="card__bookmark__container">
           <img
@@ -320,8 +322,9 @@
         </ul>
       </section>
     </main>
+
     <!-- Create Card -->
-    <main class="create__card__main">
+    <main class="mainquiz hidepage" data-js="createCardPage">
       <form class="create__card__form" action="">
         <label class="create__card__input-label" for="question"
           >Add your new question:</label
@@ -364,8 +367,9 @@
         />
       </form>
     </main>
+
     <!-- Profile -->
-    <main class="profile__main">
+    <main class="mainquiz hidepage" data-js="profilePage">
       <header class="header">
         <h1 class="header__heading">Profile</h1>
       </header>
@@ -393,9 +397,13 @@
         </ul>
       </section>
     </main>
+
     <!-- Navigation -->
-    <nav class="nav">
-      <button class="nav__menu">
+    <nav class="navigation">
+      <button
+        class="navigation__button navigation__button--active"
+        data-js="navigation__home"
+      >
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +414,7 @@
           />
         </svg>
       </button>
-      <button class="nav__menu">
+      <button class="navigation__button" data-js="navigation__bookmark">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
@@ -417,7 +425,7 @@
           />
         </svg>
       </button>
-      <button class="nav__menu">
+      <button class="navigation__button" data-js="navigation__createcard">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
@@ -428,7 +436,7 @@
           />
         </svg>
       </button>
-      <button class="nav__menu">
+      <button class="navigation__button" data-js="navigation__profile">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"

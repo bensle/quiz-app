@@ -1,14 +1,9 @@
 .header {
   background-color: var(--backround-color);
-  height: 50px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-}
-
-.header__heading {
-  color: var(--textcolor-heading2);
 }
 
 .home__body {

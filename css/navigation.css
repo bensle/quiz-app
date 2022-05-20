@@ -1,4 +1,4 @@
-nav {
+.navigation {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
@@ -6,6 +6,15 @@ nav {
   padding: 0.5rem;
   background-color: var(--backgroundcolor);
   border: solid 2px lightcoral;
+}
+
+.navigation__button {
+  background: none;
+  border: none;
+}
+
+.navigation__button--active {
+  fill: #f07f7f;
 }
 
 .nav__menuimg {
