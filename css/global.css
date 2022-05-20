@@ -6,14 +6,13 @@
 
 .quizgrid {
   display: grid;
+  grid-template-rows: 65px 1fr 65px;
   background-color: var(--backgroundcolor);
   height: 100vh;
   font-family: 'Ubuntu Mono', monospace;
 }
 
 .mainquiz {
-  display: grid;
-  place-items: center;
   overflow-y: auto;
 }
 

@@ -15,7 +15,7 @@
     <title>Quiz-App</title>
   </head>
   <body class="quizgrid">
-    <h1 class="header" data-js="pageHeading">My Quiz App</h1>
+    <h1 class="header" data-js="pageHeading">Quiz App</h1>
 
     <!-- Index Page -->
     <main class="mainquiz" data-js="indexpage">
@@ -31,7 +31,7 @@
         <h2 class="card__heading">Question</h2>
         <p class="card__question">What does HTML stand for?</p>
         <div class="card__show__container">
-          <a href="./card_answer.html"
+          <a href=""
             ><button class="card__button card__button--show">
               Show answer
             </button></a
@@ -370,16 +370,17 @@
 
     <!-- Profile -->
     <main class="mainquiz hidepage" data-js="profilePage">
-      <header class="header">
-        <h1 class="header__heading">Profile</h1>
-      </header>
-      <section class="profile__intro">
-        <img
-          class="profile__image"
-          src="./images/me.jpg"
-          alt="A picture of you"
-        />
-        <span class="profile__name">Ben Scheffler</span>
+      <section class="profile">
+        <figure class="profile__info">
+          <img
+            class="profile__image"
+            src="./images/me.jpg"
+            alt="A picture of you"
+          />
+          <figcaption class="profile__infocaption">
+            Benjamin Scheffler
+          </figcaption>
+        </figure>
       </section>
       <section>
         <h2 class="profile__about__heading">About</h2>
@@ -414,10 +415,7 @@
           />
         </svg>
       </button>
-      <button
-        class="navigation__button navigation__button--active"
-        data-js="navigation__bookmarks"
-      >
+      <button class="navigation__button" data-js="navigation__bookmarks">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
@@ -428,10 +426,7 @@
           />
         </svg>
       </button>
-      <button
-        class="navigation__button navigation__button--active"
-        data-js="navigation__createcard"
-      >
+      <button class="navigation__button" data-js="navigation__createcard">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
@@ -442,10 +437,7 @@
           />
         </svg>
       </button>
-      <button
-        class="navigation__button navigation__button--active"
-        data-js="navigation__profile"
-      >
+      <button class="navigation__button" data-js="navigation__profile">
         <svg
           class="nav__menuimg"
           xmlns="http://www.w3.org/2000/svg"
