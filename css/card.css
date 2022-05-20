@@ -7,8 +7,7 @@
 .card {
   border: solid #f07f7f 2px;
   border-radius: 15px;
-
-  /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 6px 8px rgba(0 0 0 / 50%);
   background-color: var(--backgroundcolor);
   padding: 20px;
   margin: 20px;
@@ -70,6 +69,12 @@
   z-index: 1;
 }
 
+.card__bookmarked {
+  fill: goldenrod;
+  stroke: #f07f7f;
+  stroke-width: 60;
+}
+
 .card__show__container {
   display: flex;
   justify-content: center;
@@ -91,7 +96,7 @@
 }
 
 .card__bookmark--active {
-  fill: white;
-  /* stroke: #f07f7f; */
+  fill: goldenrod;
+  stroke: #f07f7f;
   stroke-width: 60;
 }
