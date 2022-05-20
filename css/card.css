@@ -10,7 +10,7 @@
 
   /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); */
   background-color: var(--backgroundcolor);
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   width: 80vw;
   display: grid;
@@ -65,8 +65,8 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  right: -5px;
-  top: -18px;
+  right: -15px;
+  top: -33px;
   z-index: 1;
 }
 

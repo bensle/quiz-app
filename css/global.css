@@ -4,20 +4,21 @@
   margin: 0;
 }
 
-body {
+.quizgrid {
+  display: grid;
+  grid-template-rows: 40px 1fr 65px;
   background-color: var(--backgroundcolor);
-
-  /*  display: grid; */
   height: 100vh;
   font-family: 'Ubuntu Mono', monospace;
 }
 
 .mainquiz {
-  display: grid;
-  place-items: center;
+  /* display: grid; */
   overflow-y: auto;
+  place-content: center;
+  padding: 20px;
 }
 
-.nav__menuhome {
-  fill: lightcoral;
+.hidepage {
+  display: none;
 }

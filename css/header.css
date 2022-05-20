@@ -1,16 +1,7 @@
 .header {
   background-color: var(--backround-color);
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-}
-
-.header__heading {
-  color: var(--textcolor-heading2);
-}
-
-.home__body {
   display: grid;
+  place-content: center;
+  padding: 0.5rem;
+  border-bottom: solid 2px lightcoral;
 }
