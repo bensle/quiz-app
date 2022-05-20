@@ -14,14 +14,8 @@ body {
 
 .mainquiz {
   display: grid;
-
-  /* justify-items: center;
-  align-items: center; */
-
   place-items: center;
   overflow-y: auto;
-
-  /* height: calc(100vh - 7rem); */
 }
 
 .nav__menuhome {
