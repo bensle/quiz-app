@@ -84,3 +84,14 @@
   border: solid 2px lightcoral;
   background-color: var(--backgroundcolor);
 }
+
+.card__bookmarkbutton {
+  background: none;
+  border: none;
+}
+
+.card__bookmark--active {
+  fill: white;
+  /* stroke: #f07f7f; */
+  stroke-width: 60;
+}
