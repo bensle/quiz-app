@@ -5,6 +5,18 @@ const bookmarksPage = document.querySelector('[data-js="bookmarksPage"]');
 const createCardPage = document.querySelector('[data-js="createCardPage"');
 const profilePage = document.querySelector('[data-js="profilePage"');
 
+// CardButtons
+const showAnswerText = document.querySelector('[data-js="showAnswerText"]');
+const showAnswerButton = document.querySelectorAll(
+  '[data-js="card__showButton"]'
+);
+
+showAnswerButton.forEach(showAnswer => {
+  showAnswer.addEventListener('click', () => {
+    showAnswerText.classList.toggle('hideanswer');
+  });
+});
+
 // Navigation-Buttons-Variablen
 const homePageButton = document.querySelector('[data-js="navigation__home"]');
 const bookmarksButton = document.querySelector(
