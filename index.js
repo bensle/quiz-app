@@ -24,6 +24,16 @@ bookmarkCardButtons.forEach(bookmarkButton => {
   });
 });
 
+// All bookmarked Card remove bookmark
+
+const bookmarkedCard = document.querySelectorAll('[data-js="removeBookmark"');
+
+bookmarkedCard.forEach(bookmarkedButton => {
+  bookmarkedButton.addEventListener('click', () => {
+    bookmarkedButton.classList.toggle('card__bookmarked');
+  });
+});
+
 // EventListeners Navigation hidepage
 homePageButton.addEventListener('click', () => {
   bookmarksPage.classList.add('hidepage');
