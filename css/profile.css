@@ -9,6 +9,7 @@
 }
 
 .profile__infocaption {
+  margin-left: 20px;
   padding: 20px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -23,32 +24,60 @@
   box-shadow: 0 6px 18px rgba(0 0 0 50%);
 }
 
-.profile__about__heading {
-  margin-top: 40px;
+.profile__aboutheading {
+  margin-top: 20px;
   text-align: center;
 }
 
-.profile__about__text {
+.profile__abouttext {
   margin: 20px;
 }
 
-.profile__skills__heading {
+.profile__skillsheading {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .profile__skilllist {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
 .profile__skill {
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 5px;
   border: solid var(--bordercolor);
-  width: 25%;
+  box-shadow: 0 6px 8px rgba(0 0 0 / 50%);
+}
+
+.loginform {
+  margin: 50px 20px 0;
+  display: flex;
+  flex-flow: column wrap;
+  place-content: center;
+  gap: 10px;
+  border: solid 2px var(--bordercolor);
+  border-radius: 15px;
+  box-shadow: 0 6px 8px rgba(0 0 0 / 50%);
+}
+
+.profilelabel {
+  text-align: center;
+  font-weight: bold;
+}
+
+.login__button {
+  margin: 1rem auto 0.5rem;
+  padding: 0.5rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  border: solid 2px var(--bordercolor);
+  border-radius: 10px;
+  background-color: var(--backgroundcolor);
+  box-shadow: 0 6px 8px rgba(0 0 0 / 50%);
 }

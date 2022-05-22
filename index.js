@@ -17,6 +17,7 @@ cardAnswerContainer.forEach(container => {
     showText.classList.toggle('hideanswer');
   });
 });
+//----------------------------------------------------------------------
 
 // Navigation-Buttons-Variablen
 const homePageButton = document.querySelector('[data-js="navigation__home"]');
