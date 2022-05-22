@@ -15,6 +15,11 @@ cardAnswerContainer.forEach(container => {
   const showText = container.querySelector('.card__showanswertext');
   showButton.addEventListener('click', () => {
     showText.classList.toggle('hideanswer');
+    if (showButton.innerText === 'Show answer') {
+      showButton.innerText = 'Hide answer';
+    } else if (showButton.innerText === 'Hide answer') {
+      showButton.innerText = 'Show answer';
+    }
   });
 });
 //----------------------------------------------------------------------
