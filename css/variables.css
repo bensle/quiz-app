@@ -1,6 +1,9 @@
 :root {
   --backgroundcolor: #a3a39e;
   --backgroundcolor-card: #abb3b3;
+  --bordercolor: #f08080;
+  --fillbookmarkcolor: #daa520;
+  --navigationbutton-active: #f08080;
   --textcolor-1: #000000e0;
   --textcolor-2: #020202;
   --text-color-heading1: rgb(39 34 36);

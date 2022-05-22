@@ -5,10 +5,9 @@
 }
 
 .card {
-  border: solid #f07f7f 2px;
+  border: solid var(--bordercolor) 2px;
   border-radius: 15px;
-
-  /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 6px 8px rgba(0 0 0 / 50%);
   background-color: var(--backgroundcolor);
   padding: 20px;
   margin: 20px;
@@ -31,30 +30,30 @@
 
 .tags__tag1 {
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 5px;
-  border: solid lightcoral;
+  border: solid 2px var(--bordercolor);
 }
 
 .tags__tag2 {
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 5px;
-  border: solid lightcoral;
+  border: solid 2px var(--bordercolor);
 }
 
 .tags__tag3 {
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 5px;
-  border: solid lightcoral;
+  border: solid 2px var(--bordercolor);
 }
 
 .tags__tag4 {
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 5px;
-  border: solid lightcoral;
+  border: solid 2px var(--bordercolor);
 }
 
 .card__bookmark__container {
@@ -70,9 +69,31 @@
   z-index: 1;
 }
 
+.card__bookmarked {
+  fill: var(--fillbookmarkcolor);
+  stroke: var(--bordercolor);
+  stroke-width: 60;
+}
+
 .card__show__container {
   display: flex;
   justify-content: center;
+
+  /* shorthandflex-direction/flex-wrap */
+  flex-flow: column wrap;
+}
+
+.card__showanswertext {
+  border: solid 2px var(--bordercolor);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.hideanswer {
+  display: none;
 }
 
 .card__button--show {
@@ -81,6 +102,18 @@
   padding: 0.5rem;
   font-family: 'Ubuntu Mono', monospace;
   font-weight: bold;
-  border: solid 2px lightcoral;
+  border: solid 2px var(--bordercolor);
+  border-radius: 10px;
   background-color: var(--backgroundcolor);
+}
+
+.card__bookmarkbutton {
+  background: none;
+  border: none;
+}
+
+.card__bookmark--active {
+  fill: var(--fillbookmarkcolor);
+  stroke: var(--bordercolor);
+  stroke-width: 60;
 }

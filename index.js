@@ -5,6 +5,41 @@ const bookmarksPage = document.querySelector('[data-js="bookmarksPage"]');
 const createCardPage = document.querySelector('[data-js="createCardPage"');
 const profilePage = document.querySelector('[data-js="profilePage"');
 
+// CardButtons
+// const showAnswerText = document.querySelectorAll('[data-js="showAnswerText"]');
+// const showAnswerButton = document.querySelectorAll(
+//   '[data-js="card__showButton"]'
+// );
+
+const cardAnswerContainer = document.querySelectorAll('.card__show__container');
+console.log(cardAnswerContainer);
+
+cardAnswerContainer.forEach(container => {
+  const showButton = container.querySelector('[data-js="card__showButton"]');
+  console.log(showButton);
+  const showText = container.querySelector('[data-js="showAnswerText"]');
+  console.log(showText);
+  showButton.addEventListener('click', () => {
+    showText.classList.toggle('hideanswer');
+  });
+});
+
+// function showOneText() {
+//   showAnswerText.forEach(paragraph => {
+//     paragraph.classList.toggle('hideanswer');
+//   });
+// }
+
+// showAnswerButton.forEach(showAnswer => {
+//   showAnswer.addEventListener('click', showOneText);
+// });
+
+// showAnswerButton.forEach(showAnswer => {
+//   showAnswer.addEventListener('click', () => {
+//     showAnswerText.classList.toggle('hideanswer');
+//   });
+// });
+
 // Navigation-Buttons-Variablen
 const homePageButton = document.querySelector('[data-js="navigation__home"]');
 const bookmarksButton = document.querySelector(
@@ -14,6 +49,25 @@ const createCardButton = document.querySelector(
   '[data-js="navigation__createcard"]'
 );
 const profileButton = document.querySelector('[data-js="navigation__profile"]');
+
+// Get all BookmarkCardButtons
+const bookmarkCardButtons = document.querySelectorAll('[data-js="bookmarkme"');
+
+bookmarkCardButtons.forEach(bookmarkButton => {
+  bookmarkButton.addEventListener('click', () => {
+    bookmarkButton.classList.toggle('card__bookmark--active');
+  });
+});
+
+// All bookmarked Card remove bookmark
+
+const bookmarkedCard = document.querySelectorAll('[data-js="removeBookmark"');
+
+bookmarkedCard.forEach(bookmarkedButton => {
+  bookmarkedButton.addEventListener('click', () => {
+    bookmarkedButton.classList.toggle('card__bookmarked');
+  });
+});
 
 // EventListeners Navigation hidepage
 homePageButton.addEventListener('click', () => {
