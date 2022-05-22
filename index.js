@@ -110,6 +110,21 @@ profileButton.addEventListener('click', () => {
   profileButton.classList.add('navigation__button--active');
 });
 
+//Change H1
+const heading = document.querySelector('.header');
+
+homePageButton.addEventListener('click', () => {
+  heading.innerText = 'Home';
+});
+bookmarksButton.addEventListener('click', () => {
+  heading.innerText = 'Bookmarks';
+});
+createCardButton.addEventListener('click', () => {
+  heading.innerText = 'Create Card';
+});
+profileButton.addEventListener('click', () => {
+  heading.innerText = 'Profile';
+});
 //---------------------------------------------------------------------
 // old function - toggles all answers ---------------------------------
 // function showOneText() {
