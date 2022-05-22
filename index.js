@@ -6,16 +6,39 @@ const createCardPage = document.querySelector('[data-js="createCardPage"');
 const profilePage = document.querySelector('[data-js="profilePage"');
 
 // CardButtons
-const showAnswerText = document.querySelector('[data-js="showAnswerText"]');
-const showAnswerButton = document.querySelectorAll(
-  '[data-js="card__showButton"]'
-);
+// const showAnswerText = document.querySelectorAll('[data-js="showAnswerText"]');
+// const showAnswerButton = document.querySelectorAll(
+//   '[data-js="card__showButton"]'
+// );
 
-showAnswerButton.forEach(showAnswer => {
-  showAnswer.addEventListener('click', () => {
-    showAnswerText.classList.toggle('hideanswer');
+const cardAnswerContainer = document.querySelectorAll('.card__show__container');
+console.log(cardAnswerContainer);
+
+cardAnswerContainer.forEach(container => {
+  const showButton = container.querySelector('[data-js="card__showButton"]');
+  console.log(showButton);
+  const showText = container.querySelector('[data-js="showAnswerText"]');
+  console.log(showText);
+  showButton.addEventListener('click', () => {
+    showText.classList.toggle('hideanswer');
   });
 });
+
+// function showOneText() {
+//   showAnswerText.forEach(paragraph => {
+//     paragraph.classList.toggle('hideanswer');
+//   });
+// }
+
+// showAnswerButton.forEach(showAnswer => {
+//   showAnswer.addEventListener('click', showOneText);
+// });
+
+// showAnswerButton.forEach(showAnswer => {
+//   showAnswer.addEventListener('click', () => {
+//     showAnswerText.classList.toggle('hideanswer');
+//   });
+// });
 
 // Navigation-Buttons-Variablen
 const homePageButton = document.querySelector('[data-js="navigation__home"]');
